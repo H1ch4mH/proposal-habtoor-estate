@@ -1,6 +1,12 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { Frank_Ruhl_Libre as MySerif } from "next/font/google";
 
+const mySerif = MySerif({
+  subsets: ["latin"],
+  weight: ["300", "400"],
+  variable: "--font-myserif",
+});
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -21,7 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${mySerif.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
