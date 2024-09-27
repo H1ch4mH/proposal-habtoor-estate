@@ -19,7 +19,7 @@ function FeaturedProperties() {
       <h2 className="font-serif text-3xl text-center mt-32 mb-8">
         Featured Properties
       </h2>
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />;
+      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
     </>
   );
 }

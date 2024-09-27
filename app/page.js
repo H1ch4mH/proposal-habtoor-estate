@@ -5,6 +5,11 @@ import MiscSection1 from "@/components/sections/home-misc-section-1";
 import Communities from "@/components/sections/communities";
 import Cta1 from "@/components/sections/cta-1";
 import Properties from "@/components/sections/properties";
+import FeaturedProject from "@/components/sections/featured-project";
+import Stories from "@/components/sections/stories";
+import NewsSection from "@/components/sections/news-section";
+import Subscribe from "@/components/sections/subscribe";
+import Footer from "@/components/sections/footer";
 export default function Home() {
   return (
     <>
@@ -20,6 +25,11 @@ export default function Home() {
         <Communities />
         <Cta1 />
         <Properties />
+        <FeaturedProject />
+        <Stories />
+        <NewsSection />
+        <Subscribe />
+        <Footer />
       </div>
     </>
   );
