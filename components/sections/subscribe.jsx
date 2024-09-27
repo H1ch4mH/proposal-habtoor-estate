@@ -8,7 +8,7 @@ function Subscribe() {
       <div className="container max-w-prose mx-auto">
         <h2 className="font-serif text-3xl text-center">Looking for a House</h2>
 
-        <p className="font-sans text-sm max-w-prose mt-8 tracking-wide">
+        <p className="font-sans text-sm max-w-prose mt-8 tracking-wide text-center">
           Leave us your contact details and we’ll get back to you soon.
         </p>
 
