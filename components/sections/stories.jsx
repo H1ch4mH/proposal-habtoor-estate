@@ -1,4 +1,5 @@
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
+import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -40,8 +41,9 @@ function Stories() {
               className="w-full h-full object-cover"
             />
           </AspectRatio>
-          <span className="font-serif text-xl mt-4 mb-2 cursor-pointer">
+          <span className="font-serif text-xl mt-4 mb-2 cursor-pointe flex items-center cursor-pointer">
             {stories[0].title}
+            <ArrowRightIcon size={18} className="ml-auto" />
           </span>
           <span className="font-sans text-sm leading-relaxed text-slate-700 tracking-wide cursor-pointer">
             {stories[0].description}
@@ -58,8 +60,9 @@ function Stories() {
                 className="w-full h-full object-cover"
               />
             </AspectRatio>
-            <span className="font-serif text-xl mt-4 mb-2 cursor-pointer">
+            <span className="font-serif text-xl mt-4 mb-2 cursor-pointer flex items-center">
               {stories[1].title}
+              <ArrowRightIcon size={18} className="ml-auto" />
             </span>
             <span className="font-sans text-sm leading-relaxed text-slate-700 tracking-wide cursor-pointer">
               {stories[1].description}
@@ -75,8 +78,9 @@ function Stories() {
                 className="w-full h-full object-cover"
               />
             </AspectRatio>
-            <span className="font-serif text-xl mt-4 mb-2 cursor-pointer">
+            <span className="font-serif text-xl mt-4 mb-2 cursor-pointer flex items-center ">
               {stories[2].title}
+              <ArrowRightIcon size={18} className="ml-auto" />
             </span>
             <span className="font-sans text-sm leading-relaxed text-slate-700 tracking-wide cursor-pointer">
               {stories[2].description}

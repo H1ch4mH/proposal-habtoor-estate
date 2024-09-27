@@ -21,7 +21,7 @@ function Menu() {
           >
             <VideoIcon size={16} />
             <span className="text-xs uppercase tracking-wider">
-              Instant video call
+              Book a Meeting
             </span>
           </Link>
           <Link

@@ -19,7 +19,7 @@ function MiscSection1() {
           </div>
           <div className="md:w-1/2 md:pl-16 mt-4 md:-mt-16 ">
             <Image
-              src="/al-wasl.jpg"
+              src="/misc-photo.jpg"
               alt="Luxury House"
               width={600}
               height={400}
