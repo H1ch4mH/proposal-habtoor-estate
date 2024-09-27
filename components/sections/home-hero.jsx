@@ -101,10 +101,10 @@ const HeroOverlay = () => {
           className="max-w-sm mt-8 mx-auto font-sans color-1 text-xs uppercase leading-6 tracking-widest"
           ref={refP2}
         >
-          Al Habtoor Real Estate (AHRE) offers a diverse range of properties,
-          from modern offices to luxury villas. Since 1993, AHRE has provided
-          expert service across the UAE and beyond as part of the Al Habtoor
-          Group.
+          Al Habtoor Real Estate offers a diverse range of properties, from
+          modern offices to luxury villas. Since 1993, Al Habtoor Real Estate
+          has provided expert service across the UAE and beyond as part of the
+          Al Habtoor Group.
         </p>
       </div>
 

@@ -6,11 +6,10 @@ function Subscribe() {
   return (
     <section className="z-20 bg-white py-32">
       <div className="container max-w-prose mx-auto">
-        <h2 className="font-serif text-3xl text-center">Subscribe</h2>
+        <h2 className="font-serif text-3xl text-center">Looking for a House</h2>
 
         <p className="font-sans text-sm max-w-prose mt-8 tracking-wide">
-          Complete the form below for the latest news and updates about Al
-          Habtoor Real Estate Residences
+          Leave us your contact details and we’ll get back to you soon.
         </p>
 
         <div className="flex flex-row space-x-8 mt-8">
